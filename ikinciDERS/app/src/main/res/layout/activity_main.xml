@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+
+    <TextView
+
+        android:text="Merhaba Dünya!"
+        android:id="@+id/mesaj"
+        style="@style/textViewStili"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+
+
+
+
+         />
+
+    <Button
+        android:id="@+id/kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#BA0404"
+        android:text="@string/KaydetButonu"
+        app:rippleColor="#F7000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:ems="11"
+        android:id="@+id/Kullanıcıdanverialan"
+        />
+
+</LinearLayout>

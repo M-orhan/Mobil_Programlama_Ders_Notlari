@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:rowCount="6"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="30dp"
+    android:background="#000000"
+    >
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="103dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:background="#515151"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:backgroundTint="#515151"
+        android:text="AC"
+        app:cornerRadius="250dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/mod"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="%"
+        android:backgroundTint="#FA8910"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/yedi"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:backgroundTint="#515151"
+        android:text="7"
+        app:cornerRadius="250dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/sekiz"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:backgroundTint="#515151"
+        android:text="8"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/dokuz"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="9"
+        android:backgroundTint="#515151"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/dort"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="4"
+        android:backgroundTint="#515151"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bes"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:text="5"
+        android:backgroundTint="#515151"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/alti"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="6"
+        android:backgroundTint="#515151"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bir"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:backgroundTint="#515151"
+        android:text="1"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/iki"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:backgroundTint="#515151"
+        android:text="2"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/uc"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:text="3"
+        android:backgroundTint="#515151"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/virgul"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:backgroundTint="#515151"
+        android:text=","
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bolum"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:text="÷"
+        android:backgroundTint="#FA8910"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/eksi"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:text="-"
+        android:backgroundTint="#FA8910"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/carpi"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:text="x"
+        android:backgroundTint="#FA8910"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/arti"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:text="+"
+        android:backgroundTint="#FA8910"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/esit"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="5"
+        android:layout_column="3"
+        android:backgroundTint="#FA8910"
+        android:text="="
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/sifir"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:backgroundTint="#515151"
+        android:text="0"
+        android:textSize="30dp"/>
+
+
+</GridLayout>
+
